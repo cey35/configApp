@@ -7,6 +7,7 @@ var _ = require('underscore'); //arrayler ve objeler üzerinde işlem yapabilmek
 app.use(bodyParser.json());
 
 require('./routes/routes.js')(app);
+app.use(express.static('public'))
 
 /*
 app.post("/apps/:id", function(req, res){
@@ -16,4 +17,4 @@ app.post("/apps/:id", function(req, res){
 })*/
 
 
-app.listen(8000);
+app.listen(3000);

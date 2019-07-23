@@ -1,0 +1,28 @@
+{
+    "configs":
+    [
+        {
+            "appName" : "httpbin",
+            "configUrl" : "http://httpbin.org",
+            "configUpdateUrl" : "http://httpbin.org/post",
+            "configReload" : "",
+            "logUrl" : "",
+            "logUpdateUrl" : "",
+            "logReload" : "",
+            "version" : "",
+            "checkStatus" : ""
+        },
+
+        {
+            "appName" : "postman",
+            "configUrl" : "https://postman-echo.com",
+            "configUpdateUrl" : "https://postman-echo.com/post",
+            "configReload" : "",
+            "logUrl" : "",
+            "logUpdateUrl" : "",
+            "logReload" : "",
+            "version" : "",
+            "checkStatus" : ""
+        }
+    ]
+}
